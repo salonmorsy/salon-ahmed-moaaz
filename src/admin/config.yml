@@ -12,6 +12,14 @@ collections:
       - { label: "Client Image", name: "image", widget: "image" }
       - { label: "Tags", name: "tags", widget: "list", default: ["portfolio"] }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
+  - name: "portfolio2"
+    label: "Portfolio2"
+    folder: "src/portfolio2"
+    create: true
+    fields:
+      - { label: "Client Image", name: "image", widget: "image" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["portfolio2"] }
+      - { label: "Image caption", name: "imageAlt", widget: "string" }
   - name: "team"
     label: "Team"
     folder: "src/team"
