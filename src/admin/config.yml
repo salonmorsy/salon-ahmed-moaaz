@@ -20,6 +20,14 @@ collections:
       - { label: "Client Image", name: "image", widget: "image" }
       - { label: "Tags", name: "tags", widget: "list", default: ["portfolio2"] }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
+  - name: "stars"
+    label: "Stars"
+    folder: "src/stars"
+    create: true
+    fields:
+      - { label: "blockquote", name: "blockquote", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["stars"] }
+      - { label: "Text", name: "text", widget: "string" }
   - name: "team"
     label: "Team"
     folder: "src/team"
