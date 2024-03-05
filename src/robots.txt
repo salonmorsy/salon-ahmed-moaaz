@@ -9,4 +9,4 @@ Disallow: /about
 User-agent: Salon Ahmed&Moaaz Pricing
 Disallow: /pricing
 
-SiteMap: https://salon-ahmed-moaaz.com/sitemap.xml
+SiteMap: https://salon-ahmedwmoaaz.com/sitemap.xml
