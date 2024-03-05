@@ -377,6 +377,14 @@ layout: 'base.njk'
                                 </div>
                             {%- endfor -%}
 
+			    {%- for image in collections.portfolio2 | reverse -%}
+                                <div class="photo-gallery-item">
+                                    <figure class="hover-anime">
+                                        <img src="{{image.data.image}}" alt="{{image.data.imageAlt}}">
+                                    </figure>
+                                </div>
+                            {%- endfor -%}
+
                         </div>
                         <!-- Photo Gallery Images End -->
                     </div>
